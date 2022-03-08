@@ -1,0 +1,228 @@
+    1  docker start centos7
+    2  ls /
+    3  ls -a
+    4  ls -l
+    5  ls /
+    6  ls /usr
+    7  pwd
+    8  cd /root
+    9  pwd
+   10  cd usr
+   11  cd /usr
+   12  cd /home
+   13  mkdir test1
+   14  ls
+   15  cd /home
+   16  mkdir test2/test3
+   17  mkdir -p test2/test3
+   18  ls test2
+   19  touch test1/index.php
+   20  ls test1
+   21  cd /home/test1 && ls
+   22  cd /home/test1
+   23  cp index.php copy.php
+   24  ls
+   25  cd /home
+   26  cp -r test1 test4
+   27  ls
+   28  ls test4
+   29  cd /home
+   30  mv test2/test3 test3
+   31  ls
+   32  mv test4 test1_copy
+   33  ls
+   34  ls test1
+   35  rm test1/copy.php
+   36  ls test1
+   37  rm -r test3
+   38  ls
+   39  cd /home
+   40  rm test1_copy/*.php
+   41  ls test1_copy
+   42  cd /home
+   43  echo '# Hello World' > README.md
+   44  cat README.md
+   45  echo '# Server Lesson' > README.md
+   46  cat README.md
+   47  echo 'Linux Practice' >> README.md
+   48  echo '-----------------' >> README.md
+   49  cat README.md
+   50  cd /home
+   51  vi README.md
+   52  docker stop centos7
+   53  docker stop centos7
+   54  docker info
+   55  cd /
+   56  exit
+   57  ls /
+   58  cd /root
+   59  mkdir server_lesson && cd server_lesson
+   60  yum update -y && yum -y install git
+   61  git version
+   62  git init
+   63  touch first.txt
+   64  git status
+   65  ls /
+   66  /linux_practice1
+   67  ls
+   68  mkdir linux_practice1
+   69  ls /
+   70  ls
+   71  cd linux_practice1
+   72  mkdir public
+   73  ls
+   74  cd public
+   75  cd linux_practice1
+   76  ls
+   77  ls /
+   78  cd /inux_practice1
+   79  - /inux_practice1 
+   80  cd ../
+   81  ls
+   82  touch public/index.php
+   83  ls
+   84  ls public
+   85  cd /public
+   86  ls
+   87  cd public
+   88  cp index.php index_bk.php
+   89  ls
+   90  cd ../
+   91  cd ../
+   92  ls
+   93  cd linux_practice1
+   94  cp -r public tmp
+   95  ls
+   96  ls tmp
+   97  rm tmp/index_bk.php
+   98  ls tmp
+   99  cd ../
+  100  vi README.md
+  101  docker stop centos7
+  102  exit
+  103  cd /root
+  104  ls
+  105  cd server_lesson
+  106  vi README.md
+  107  exit
+  108  cd root/server_lesson
+  109  vi README.md
+  110  vi README.md
+  111  vi README.md
+  112  vi README.md
+  113  vi README.md
+  114  vi README.md
+  115  exit
+  116  cd root/server_lesson
+  117  vi README.md
+  118  vi README.md
+  119  git status
+  120   git add.
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit -m 'LinuxExercise1'
+  125  git commit -m 'LinuxExercise1'
+  126  vim ./git/config
+  127  git config user.email ruku61oma@gmail.com
+  128  git config user.name dempo-ruku
+  129  git commit -m 'LinuxExercise1'
+  130  git status
+  131  git log
+  132  git remote add origin https://github.com/dempo-ruku/server_lesson.git
+  133  git remote -v
+  134  git push origin master
+  135  git push origin master
+  136  git remote remove origin
+  137  git remote add origin? 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/dempo-ruku/server_lesson.git
+  138  git remote -v
+  139  git status
+  140  git log
+  141  git push origin master
+  142  git remote -v
+  143  git push origin master
+  144  git remote add origin? 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/dempo-ruku/server_lesson.git (fetch)
+  145  git push origin master
+  146  git push origin master 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/dempo-ruku/server_lesson.git
+  147  git push origin master server_lesson
+  148  git push origin master server_lesson.git
+  149  git remote -v
+  150  git remote add origin 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/dempo-ruku/server_lesson.git
+  151  git push origi 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/dempo-ruku/server_lesson.git
+  152  git push origin master
+  153  git remote add origin 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/dempo-ruku/server_lesson.git
+  154  git push origi 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/dempo-ruku/server_lesson.git
+  155  git remote -v
+  156  git push origin master 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/dempo-ruku/server_lesson.git
+  157  git remote add origin https://github.com/dempo-ruku/server_lesson.git
+  158  git remote -v
+  159  git push origin main
+  160  git config -l
+  161  docker stop centos7
+  162  exit
+  163  cd root/server_lesson
+  164  git status
+  165  git remote add origin? https://github.com/dempo-ruku/server_lesson.git
+  166  git remote -v
+  167  git log
+  168  git remote add origin https://github.com/dempo-ruku/server_lesson.git
+  169  git remote rm origin
+  170  git remote add origin https://github.com/dempo-ruku/server_lesson.git
+  171  git remote -v
+  172  git push origin master
+  173  git push origin master
+  174  git config -l
+  175  git push https://github.com/dempo-ruku/server_lesson.git
+  176  git push origin master
+  177  git push https://dempo-ruku:remote: Permission to dempo-ruku/server_lesson.git denied to dempo-ruku.
+  178  git push https://dempo-ruku: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@github.com/dempo-ruku/server_lesson.git
+  179  git stuts
+  180  git status
+  181  git log
+  182  git remote -v
+  183  git push origin master
+  184  git push origin master
+  185  git config -l
+  186  git config --global --list
+  187  exit
+  188  cd root/server_lesson
+  189  git status
+  190  git log
+  191  git push origin master
+  192  vi README.md
+  193  vi README.md
+  194  ls -la
+  195  rm .README.md.swp
+  196  vi README.md
+  197  vi README.md
+  198  vi README.md
+  199  exit
+  200  cd root/server_lesson
+  201  ls
+  202  mkdir linux_practice2
+  203  ls
+  204  cd linux_practice2
+  205  mkdir documents
+  206  cd ..
+  207  ls
+  208  cd linux_practice2
+  209  ls
+  210  touch documents/gizumo{01..50}.md
+  211  ls documents
+  212  mkdir trash
+  213  ls
+  214  mv gizumo{20..40}.md trash
+  215  cd documents
+  216  ls
+  217  mv gizumo{20..40}.md trash
+  218  mv gizumo{20..40}.md .trash
+  219  cd ..
+  220  ls
+  221  mv documents/gizumo{20..40}.md trash
+  222  ls trash
+  223  touch .gitignore
+  224  ls
+  225  vi .gitignore
+  226  vi .gitignore
+  227  vi .gitignore
+  228  history 300
